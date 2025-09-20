@@ -20,7 +20,7 @@ app.set('view engine', 'ejs');
 
 // Session setup
 app.use(session({
-  secret: 'mysecretkey',
+  secret: process.env.SESSION_SECRET || 'mysecretkey',
   resave: false,
   saveUninitialized: false,
   store: MongoStore.create({ mongoUrl: process.env.MONGO_URI }),
@@ -30,6 +30,7 @@ app.use(session({
     secure: false
   }
 }));
+
 
 // 🔹 Import routes
 const supplierRoutes = require('./routes/supplierRoutes');

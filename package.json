@@ -1,7 +1,7 @@
 {
   "name": "product_supplier",
   "version": "1.0.0",
-  "description": "",
+  "description": "Dự án web CRUD (Create, Read, Update, Delete) xây dựng bằng **Node.js + Express + MongoDB + Mongoose** theo kiến trúc **MVC**.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
