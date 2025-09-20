@@ -2,7 +2,7 @@
 
 Dự án web CRUD (Create, Read, Update, Delete) xây dựng bằng **Node.js + Express + MongoDB + Mongoose** theo kiến trúc **MVC**.
 
-## 🚀 Tính năng
+## Tính năng
 - Quản lý **Supplier**: `name`, `address`, `phone`
 - Quản lý **Product**: `name`, `price`, `quantity`, `supplierId`
 - Giao diện hiển thị bằng **EJS**
